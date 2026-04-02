@@ -19,7 +19,8 @@ final class ServiceFactory
 
     public function __construct(
         private readonly Transporter $transporter,
-    ) {}
+    ) {
+    }
 
     public function make(string $name): Service
     {

@@ -16,7 +16,8 @@ final class MockTransporter implements Transporter
      */
     public function __construct(
         private readonly array $response = [],
-    ) {}
+    ) {
+    }
 
     public function request(Payload $payload): array
     {

@@ -18,7 +18,8 @@ final class Payload
         private readonly string $uri,
         private readonly array $parameters = [],
         private readonly ContentType $contentType = ContentType::JSON,
-    ) {}
+    ) {
+    }
 
     /**
      * GET request to list resources.

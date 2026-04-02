@@ -6,4 +6,6 @@ namespace JetEmail\Exceptions;
 
 use Exception;
 
-final class WebhookSignatureVerificationException extends Exception {}
+final class WebhookSignatureVerificationException extends Exception
+{
+}

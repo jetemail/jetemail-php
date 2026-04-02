@@ -22,7 +22,8 @@ final class HttpTransporter implements Transporter
         private readonly ClientInterface $client,
         private readonly BaseUri $baseUri,
         private readonly Headers $headers,
-    ) {}
+    ) {
+    }
 
     /**
      * @inheritDoc

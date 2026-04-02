@@ -13,7 +13,8 @@ final class Headers
      */
     private function __construct(
         private readonly array $headers,
-    ) {}
+    ) {
+    }
 
     public static function withAuthorization(ApiKey $apiKey): self
     {

@@ -8,7 +8,8 @@ final class ApiKey
 {
     private function __construct(
         public readonly string $value,
-    ) {}
+    ) {
+    }
 
     public static function from(string $value): self
     {

@@ -11,7 +11,8 @@ abstract class Service
 {
     public function __construct(
         protected readonly Transporter $transporter,
-    ) {}
+    ) {
+    }
 
     /**
      * Create a single resource from API response attributes.

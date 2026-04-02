@@ -5,7 +5,6 @@ declare(strict_types=1);
 use JetEmail\Client;
 use JetEmail\Service\Batch;
 use JetEmail\Service\Email;
-use JetEmail\Service\Service;
 use JetEmail\Tests\Fixtures\MockTransporter;
 
 it('resolves the emails service', function () {

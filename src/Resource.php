@@ -17,7 +17,8 @@ class Resource implements ArrayAccess, JsonSerializable
      */
     final public function __construct(
         protected readonly array $attributes,
-    ) {}
+    ) {
+    }
 
     /**
      * @param  array<string, mixed>  $attributes
